@@ -13,14 +13,20 @@ namespace Volunteer.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Volunteer()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Organizer()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult dashboard()
         {
             ViewBag.Message = "Your contact page.";
 
